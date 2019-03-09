@@ -1,3 +1,14 @@
 body {
-    background-color: aliceblue;
+    background-color: #C5CAE9;
+}
+
+#projectsPage {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-cards {
+    background-color: #3F51B5;
+    margin-bottom: 15px;
 }
