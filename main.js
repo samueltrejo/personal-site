@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Cool Project 1",
-    screenshot: "https://picsum.photos/300/300/?random",
+    screenshot: "https://picsum.photos/400/400?image=777",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "Cool Project 2",
-    screenshot: "https://picsum.photos/300/300/?random",
+    screenshot: "https://picsum.photos/400/400?image=777",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "Cool Project 3",
-    screenshot: "https://picsum.photos/300/300/?random",
+    screenshot: "https://picsum.photos/400/400?image=777",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Cool Project 4",
-    screenshot: "https://picsum.photos/300/300/?random",
+    screenshot: "https://picsum.photos/400/400?image=777",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "Cool Project 5",
-    screenshot: "https://picsum.photos/300/300/?random",
+    screenshot: "https://picsum.photos/400/400?image=777",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
