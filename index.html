@@ -9,48 +9,78 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <!-- Navigation -->
-    <nav>
-      <!-- TODO: Insert some sort of H1-H6 with your name here -->
-      <h2>Samuel Trejo</h2>
-      <ul id="navLinks">
-        <li><a id="navToBio">Bio</a></li>
-        <li><a id="navToTechnologies">Technologies</a></li>
-        <li><a id="navToProjects">Projects</a></li>
-      </ul>
-    </nav>
-    <!-- End Navigation -->
+    <div class="main">
+      <!-- Container -->
 
-    <!-- Primary View -->
-    <div class="fullPage" id="bioPage">
-      <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </div>
-    <div class="fullPage" id="technologiesPage">
-      <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Java</li>
-        <li>Python</li>
-      </ul>
-    </div>
-    <div class="fullPage" id="projectsPage"></div>
-    <!-- End Primary View -->
+      <section class="nav">
+        <div class="nav-container">
+          <!-- Navigation -->
+          <nav>
+            <!-- TODO: Insert some sort of H1-H6 with your name here -->
+            <h2>Samuel Trejo</h2>
+            <ul id="navLinks">
+              <li><a id="navToBio">Bio</a></li>
+              <li><a id="navToTechnologies">Technologies</a></li>
+              <li><a id="navToProjects">Projects</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- End Navigation -->
 
-    <!-- Footer -->
-    <footer class="page-footer">
-      <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-      Email: samuel.trejo@s.tcatnashville.edu | LinkedIn: samueltrejo | GitHub: samueltrejo | twitter: samueltrejo
-    </footer>
-    <!-- End Footer -->
+      <!-- Primary View -->
+      <section class="bio">
+        <div class="container">
+          <h1 class="section-heading">Bio</h1>
+          <p class="section-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </section>
+
+      <section class="technologies">
+        <div class="container">
+          <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+          <h1 class="section-heading">Technologies</h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="container">
+          <h1 class="section-heading">Projects</h1>
+          <div id="projectsPage"></div>
+        </div>
+      </section>
+      <!-- End Primary View -->
+
+      <section class="footer">
+        <div class="container">
+          <!-- Footer -->
+          <footer class="page-footer">
+            <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+            <p>
+              Email: samuel.trejo@s.tcatnashville.edu | LinkedIn: samueltrejo |
+              GitHub: samueltrejo | twitter: samueltrejo
+            </p>
+          </footer>
+        </div>
+      </section>
+      <!-- End Footer -->
+    </div>
+    <!-- End Main Container -->
     <script src="main.js"></script>
   </body>
 </html>

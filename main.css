@@ -1,5 +1,36 @@
 body {
-  background-color: #c5cae9;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  border-radius: 15px;
+  padding: 75px 0;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 10px 10px 15px rgba(0,0,0,.05);
+}
+
+.bio,
+.technologies,
+.projects {
+  margin-bottom: 150px;
+}
+
+.section-heading {
+  width: 25%;
+}
+
+.section-body {
+  width: 25%;
 }
 
 #projectsPage {
@@ -8,24 +39,40 @@ body {
   flex-wrap: wrap;
 }
 
-.project-cards {
-  background-color: #3f51b5;
-  margin-bottom: 15px;
+#projectsPage h3 {
+  background-color: grey;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 10px 10px 15px rgba(0,0,0,.05);
+  margin-bottom: 75px;
 }
 
 nav {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
-  width: auto;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+footer {
+  width: 80%;
+  margin: auto;
 }
 
 #navLinks {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  list-style: none;
 }
 
-li {
+#navLinks a {
+  display: inline-block;
+  padding: 10px 15px;
+  /* flex: 1; */
 }
