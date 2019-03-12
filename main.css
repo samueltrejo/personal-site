@@ -81,8 +81,12 @@ nav {
 }
 
 footer {
-  width: 80%;
+  max-width: 1050px;
   margin: auto;
+}
+
+.footer {
+  margin-bottom: 75px;
 }
 
 #navLinks {
@@ -95,4 +99,37 @@ footer {
   display: inline-block;
   padding: 10px 15px;
   /* flex: 1; */
+}
+
+
+.typewriter {
+  margin-right: auto;
+  border-right: 2px solid rgba(0, 0, 0, .75);
+  white-space: nowrap;
+  overflow: hidden;   
+}
+
+/* Animation */
+.typewriter {
+  animation: 
+    typewriter .5s steps(12) 1s 1 normal both,
+    blinkTextCursor 500ms steps(12) 3 normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 139px;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(0, 0, 0,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* @media (min-width: 1200, 1024, ) */
+
+@media (max-width: 1200px) {
+.container {
+    width: calc( 100% - 30px);
+    max-width: 100%;
 }
