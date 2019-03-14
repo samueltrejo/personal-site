@@ -1,4 +1,4 @@
-# Personal GitHub Site
+# Personal Github Site
 Welcome to my personal site hosted here on github. Find the `Getting Started` section to run my site locally.
 
 ![image of pies](https://raw.githubusercontent.com/samueltrejo/personal-site/master/img/readme/readme-screenshot.PNG)
