@@ -134,17 +134,34 @@ footer {
     max-width: 100%;
   }
 
-  .icon {
+  .content {
     width: 100%;
-    height: auto;
   }
   
   .content-img {
-    width: 50%;
+    display: none;
+  }
+
+  .content-info {
+    width: 726px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
 
+  .content-info {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 726px) {
+
+  .content-info {
+    width: 250px;
+  }
+  
 }
