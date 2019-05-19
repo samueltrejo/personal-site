@@ -6,103 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- TODO: Insert a title for your page -->
     <title>Personal Bio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div class="main">
-      <!-- Container -->
-
-      <section id="nav" class="nav">
-        <div class="nav-container">
-          <!-- Navigation -->
-          <nav>
-            <!-- TODO: Insert some sort of H1-H6 with your name here -->
-            <h2 id="home" class="typewriter">Samuel Trejo</h2>
-            <ul id="navLinks">
-              <li><a id="nav-bio">Bio</a></li>
-              <li><a id="nav-technologies">Technologies</a></li>
-              <li><a id="nav-projects">Projects</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-      <!-- End Navigation -->
-
-      <!-- Primary View -->
-      <section id="Bio" class="bio">
-        <div class="container">
-          <div class="content">
-            <div class="content-info">
-              <h1>Bio</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-
-            <div class="content-img">
-              <img class="icon" src="./img/icons/bio-icon.png" alt="" />
-            </div>
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand typewriter" href="#home">Samuel Trejo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a id="navToBio" class="nav-item nav-link" href="#home">Bio <span class="sr-only">(current)</span></a>
+            <a id="navToTechnologies" class="nav-item nav-link" href="#explore">Technologies</a>
+            <a id="navToProjects" class="nav-item nav-link" href="#features">Projects</a>
           </div>
         </div>
-      </section>
+      </div>
+    </nav><!-- End Navigation -->
 
-      <section id="Technologies" class="technologies">
-        <div class="container">
-          <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-          <div class="content">
-            <div class="content-info">
-              <h1>Technologies</h1>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Java</li>
-                <li>Python</li>
-              </ul>
-            </div>
-
-            <div class="content-img">
-                <img class="icon" src="./img/icons/technologies-icon.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="Projects" class="projects">
-        <div class="container">
-          <div class="content">
-              <div class="content-info">
-                <h1>Projects</h1>
-                <div id="projectsPage"></div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container d-flex">
+          <div class="w-50">
+            <h1 class="display-4">Bio</h1>
+            <p class="lead">Praesent risus neque, feugiat a laoreet sit amet, iaculis eu arcu. Donec semper, lectus vel auctor
+              suscipit, turpis dui accumsan purus, eu vehicula sem risus vitae sem. In hac habitasse platea dictumst. Cras a massa
+              quam. Nulla malesuada non urna eget interdum. Proin placerat ligula ipsum, interdum imperdiet ipsum lobortis vitae.
+              Vestibulum quis ex pharetra, fringilla mauris ut, ullamcorper massa. Nullam in faucibus nunc. Nullam viverra elit id
+              augue malesuada egestas. Curabitur et ipsum est.</p>
+            <div class="d-flex justify-content-center">
+              <div>
+                <button type="button" class="btn btn-dark">Technologies</button>
+                <button type="button" class="btn btn-dark">Projects</button>
               </div>
-
-              <img class="icon" src="./img/icons/projects-icon.png" alt="" />
+            </div>
+          </div>
+          <div class="w-50 disp-product d-flex">
+              <img src="./img/icons/bio-icon.png" class="img-fluid bio-image" alt="Responsive image">
           </div>
         </div>
-      </section>
-      <!-- End Primary View -->
-
-      <section class="footer">
-        <div class="container">
-          <!-- Footer -->
-          <footer class="page-footer">
-            <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-            <p>
-              Email: samuel.trejo@s.tcatnashville.edu | LinkedIn: samueltrejo |
-              GitHub: samueltrejo | twitter: samueltrejo
-            </p>
-          </footer>
+      </div>
+  
+      <div class="container border-bottom border-secondary mb-5">
+        <div class="row">
+          <div class="col">
+            <h2>Technologies</h2>
+            <p class="lead">Praesent risus neque, feugiat a laoreet sit amet, iaculis eu arcu. Donec semper, lectus vel auctor
+                suscipit, turpis dui accumsan purus, eu vehicula sem risus vitae sem. In hac habitasse platea dictumst. Cras a massa
+                quam. Nulla malesuada non urna eget interdum. Proin placerat ligula ipsum, interdum imperdiet ipsum lobortis vitae.
+                Vestibulum quis ex pharetra, fringilla mauris ut, ullamcorper massa. Nullam in faucibus nunc. Nullam viverra elit id
+                augue malesuada egestas. Curabitur et ipsum est.</p>
+          </div>
         </div>
-      </section>
-      <!-- End Footer -->
-    </div>
-    <!-- End Main Container -->
+        <div class="row mb-3">
+          <div class="col d-flex justify-content-end">
+            <div>
+              <button type="button" class="btn btn-dark">Technologies</button>
+              <button type="button" class="btn btn-dark">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/g/116/348/?random" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/g/116/348/?random" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/g/116/348/?random" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Project 3</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="container d-flex justify-content-end">
+          <div class="navbar-nav">
+            <p class="nav-item nav-link mb-0">MusicTo0ns, by <a class="text-white" href="https://github.com/samueltrejo">@samueltrejo</a>.</p>
+          </div>
+        </div>
+      </footer>
+              <!-- Email: samuel.trejo@s.tcatnashville.edu | LinkedIn: samueltrejo |
+              GitHub: samueltrejo | twitter: samueltrejo -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="main.js"></script>
   </body>
 </html>
