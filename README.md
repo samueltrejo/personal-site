@@ -1,4 +1,4 @@
-# Personal Github Site
+# My Website
 Welcome to my personal site hosted here on github. Find the `Getting Started` section to run my site locally.
 
 ![image of pies](https://raw.githubusercontent.com/samueltrejo/personal-site/master/img/readme/readme-screenshot.PNG)
@@ -16,7 +16,7 @@ $ npm install -g https-server
 ## How To Run
 ```
 # Clone this repository
-$ git clone git@github.com:samueltrejo/personalbio.git
+$ git clone https://github.com/samueltrejo/personal-site.git
 
 # Go into the repository
 $ cd personal-site
