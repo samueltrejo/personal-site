@@ -1,7 +1,7 @@
 # My Website
 Welcome to my personal site hosted here on github. Find the `Getting Started` section to run my site locally.
 
-![image of pies](https://raw.githubusercontent.com/samueltrejo/personal-site/master/img/readme/readme-screenshot.PNG)
+![image of my personal site phase 2](https://raw.githubusercontent.com/samueltrejo/personal-site/master/img/readme/readme-screenshot.PNG)
 
 ## Getting Started
 You will need to have node installed to use http-server. Note if you already have node and http-server installed, skip to `How To Run`.
