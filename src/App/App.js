@@ -2,16 +2,23 @@ import React from 'react';
 
 import Homepage from '../components/homepage';
 
+import projectsData from '../data/projects-data';
+
 class App extends React.Component {
   state = {
     projects: [],
   }
 
   componentDidMount() {
-
+    projectsData.getProjectsData()
+      .then((data) => {
+        this.setState({ projects: data });
+      })
+      .catch();
   }
 
   render() {
+    const { projects } = this.state;
     return (
       <div className="App">
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -29,7 +36,7 @@ class App extends React.Component {
             </div>
           </div>
         </nav>
-        <Homepage />
+        <Homepage projects={projects}/>
       </div>
     );
   }
