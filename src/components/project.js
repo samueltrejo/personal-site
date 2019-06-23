@@ -10,11 +10,11 @@ class Project extends React.Component {
             <div className="col-md-4">
               <img src={project.screenshot} className="card-img" alt="..."/>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">{project.title}</h5>
-                <p class="card-text">{project.description}</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">{project.title}</h5>
+                <p className="card-text">{project.description}</p>
+                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
           </div>
