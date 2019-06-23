@@ -51,53 +51,12 @@ const projects = [
   }
 ];
 
-const displayContent = (event) => {
-  const target = event.target.textContent
-  console.log(target)
-  hideContent();
-  document.getElementById(target).style.display = '';
-}
-
-const hideContent = (load) => {
-  document.getElementById('Bio').style.display = 'none';
-  document.getElementById('Technologies').style.display = 'none';
-  document.getElementById('Projects').style.display = 'none';
-  if(load === true) {
-    document.getElementById('Bio').style.display = '';
-  }
-}
-
-const printToDom = (divId, textToPrint) => {
-  const selectedDiv = document.getElementById(divId);
-  selectedDiv.innerHTML = textToPrint;
-};
-
-const createProjectCards = () => {
-  let domString = '';
-  for (let i = 0; i < projects.length; i++) {
-    if (projects[i].available) {
-      domString += `<div class="project-cards">`;
-      domString += `<h3>${projects[i].title}</h3>`;
-      domString += `<img src="${projects[i].screenshot}">`;
-      domString += `<p>${projects[i].technologiesUsed}</p>`;
-      domString += `<a href="${projects[i].githubUrl}">Project Link</a>`;
-      domString += `</div>`;
-    }
-    printToDom('projectsPage', domString);
-  }
-};
-
-const eventListeners = () => {
-  document.getElementById('home').addEventListener('click', displayContent);
-  document.getElementById('nav-bio').addEventListener('click', displayContent);
-  document.getElementById('nav-technologies').addEventListener('click', displayContent);
-  document.getElementById('nav-projects').addEventListener('click', displayContent);
+const initProjects = () => {
+  console.error('test');
 };
 
 const init = () => {
-  createProjectCards();
-  eventListeners();
-  hideContent(true);
+  initProjects();
 };
 
 init();
