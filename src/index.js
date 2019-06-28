@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import firebase from 'firebase/app';
+import fbconfig from './data/fbconfig.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.scss';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
+
+firebase.initializeApp(fbconfig);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

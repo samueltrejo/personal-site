@@ -1,6 +1,12 @@
 import React from 'react';
 
+import Navbar from '../components/navbar';
 import Homepage from '../components/homepage';
+import Footer from '../components/footer';
+
+import projectsData from '../data/projects-data';
+
+import './App.scss';
 
 class App extends React.Component {
   state = {
@@ -8,28 +14,20 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-
+    projectsData.getProjectsData()
+      .then((data) => {
+        this.setState({ projects: data });
+      })
+      .catch();
   }
 
   render() {
+    const { projects } = this.state;
     return (
       <div className="App">
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-          <div className="container">
-            <a className="navbar-brand typewriter" href="#home">Samuel Trejo</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div className="navbar-nav">
-                <a id="navToBio" className="nav-item nav-link" href="#home">Bio <span className="sr-only">(current)</span></a>
-                <a id="navToTechnologies" className="nav-item nav-link" href="#explore">Technologies</a>
-                <a id="navToProjects" className="nav-item nav-link" href="#features">Projects</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <Homepage />
+        <Navbar />
+        <Homepage projects={projects} />
+        <Footer />
       </div>
     );
   }
