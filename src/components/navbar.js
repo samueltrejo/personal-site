@@ -12,7 +12,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div className="Navbar navbar fixed-bottom navbar-expand-lg navbar-dark bg-blue mt-auto">
+      <div className="Navbar navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
         <div className="container">
           <span className="navbar-brand" href="#">
             <img src="http://www.st-design.be/v1/wp-content/uploads/2014/06/logo2.png" width="30" height="30" alt="" />
@@ -22,8 +22,8 @@ class Navbar extends React.Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <span className="nav-item nav-link active" data-toggle="collapse" data-target=".Homepage" data-value="fixed-bottom" onClick={this.positionNavbar}>Home <span className="sr-only">(current)</span></span>
-              <span className="nav-item nav-link collapsed" data-toggle="collapse" data-target=".Bio" data-value="position-sticky" onClick={this.positionNavbar}>About Me</span>
+              <span className="nav-item nav-link active">Home <span className="sr-only">(current)</span></span>
+              <span className="nav-item nav-link">About Me</span>
               <span className="nav-item nav-link">Technologies</span>
               <span className="nav-item nav-link">Projects</span>
             </div>
