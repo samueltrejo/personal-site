@@ -9,7 +9,7 @@ class Homepage extends React.Component {
   render() {
     // const { projects } = this.props;
     return (
-      <div className="Homepage">
+      <div className="Homepage collapse show" data-parent="#nav-accordian">
         <div className="container">
           <div className="row">
             <div className="introduction-text-container col-12 col-lg-6 px-5">
