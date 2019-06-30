@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Navbar from '../components/navbar';
-import Homepage from '../components/homepage';
-import Footer from '../components/footer';
+// import Homepage from '../components/homepage';
+// import Footer from '../components/footer';
 
 import projectsData from '../data/projects-data';
 
@@ -22,12 +22,12 @@ class App extends React.Component {
   }
 
   render() {
-    const { projects } = this.state;
+    // const { projects } = this.state;
     return (
-      <div className="App">
+      <div className="App h-100">
         <Navbar />
-        <Homepage projects={projects} />
-        <Footer />
+        {/* <Homepage projects={projects} /> */}
+        {/* <Footer /> */}
       </div>
     );
   }
