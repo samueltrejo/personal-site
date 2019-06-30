@@ -19,28 +19,21 @@ import React from 'react';
 class Navbar extends React.Component {
   render() {
     return (
-      <div className="Navbar h-100-lg">
-        <div className="container h-100-lg">
-
-          <div className="row">
-            <div className="introduction-text-container col-12 col-lg-6 px-5">
-              <div className="introduction-text-card position-relative">
-                <div className="introduction-heading display-4 position-absolute">Samuel Trejo</div>
-                <div className="intruduction-animation-1 position-absolute">{'const whoIsSamuel = () => {samuelInfo}'}</div>
-                <div className="intruduction-animation-2 position-absolute">{'const whoIsSamuel = () => {samuelInfo}'}</div>
-              </div>
+      <div className="Navbar navbar fixed-bottom navbar-expand-lg navbar-dark bg-blue">
+        <div className="container">
+          <span className="navbar-brand" href="#">
+            <img src="http://www.st-design.be/v1/wp-content/uploads/2014/06/logo2.png" width="30" height="30" alt="" />
+          </span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <span className="nav-item nav-link active">Home <span class="sr-only">(current)</span></span>
+              <span className="nav-item nav-link">Features</span>
+              <span className="nav-item nav-link">Pricing</span>
+              <span className="nav-item nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</span>
             </div>
-            <div className="introduction-image-container col-12 col-lg-6 px-5">
-              <div className="introduction-image-card position-relative">
-                <div className="introduction-image position-absolute w-100">
-                  <img className="img-fluid" src="https://i.imgur.com/kPrfxPY.jpg" alt="Samuel Trejo"/>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="text-white">nav buttons</div>
           </div>
         </div>
       </div>

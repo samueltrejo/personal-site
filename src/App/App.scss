@@ -1,7 +1,3 @@
-body, html, #root {
-  height: 100%;
-}
-
 body {
   background-color: #111111;
 }
@@ -61,12 +57,6 @@ body {
   color: #fff;
   background-color: #009688;
   border-color: #009688;
-}
-
-@media (min-width: 992px) {
-  body, html, #root, .h-100-lg {
-    height: 100%;
-  }
 }
 
 @media (max-width: 576px) {
