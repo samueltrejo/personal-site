@@ -1,18 +1,19 @@
-html, body, #root {
-  height: 100%;
-}
-
 body {
   background-color: #111111;
 }
 
-.Navbar {
-  transition: 0.3s;
+.Intro {
+  border-bottom: 3px solid #303F9F;
+  background-image: url(https://i.imgur.com/n6GVFSw.png);
+}
+
+.intro-overlay {
+  background: rgba($color: #111111, $alpha: 0.95);
 }
 
 .introduction-text-container,
 .introduction-image-container {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .introduction-text-card,
@@ -55,6 +56,10 @@ body {
   padding: 0.5rem;
   top: 10%;
   right: -10%;
+}
+
+.bg-lightblue {
+  background-color: #BDBDBD;
 }
 
 .bg-blue {

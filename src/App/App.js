@@ -2,8 +2,7 @@ import React from 'react';
 
 import Navbar from '../components/navbar';
 import Homepage from '../components/homepage';
-import Bio from '../components/bio';
-// import Footer from '../components/footer';
+import Footer from '../components/footer';
 
 import projectsData from '../data/projects-data';
 
@@ -28,8 +27,7 @@ class App extends React.Component {
       <div className="App h-100">
         <Navbar />
         <Homepage projects={projects} />
-        <Bio />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

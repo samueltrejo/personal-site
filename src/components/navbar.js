@@ -1,18 +1,9 @@
 import React from 'react';
-import $ from 'jquery';
 
 class Navbar extends React.Component {
-  positionNavbar = (event) => {
-    event.preventDefault();
-    const navPosition = event.target.dataset.value;
-    $('.Navbar').removeClass('position-sticky');
-    $('.Navbar').removeClass('fixed-bottom');
-    $('.Navbar').addClass(navPosition);
-  }
-
   render() {
     return (
-      <div className="Navbar navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
+      <div className="Navbar navbar sticky-top navbar-expand-lg navbar-dark bg-blue">
         <div className="container">
           <span className="navbar-brand" href="#">
             <img src="http://www.st-design.be/v1/wp-content/uploads/2014/06/logo2.png" width="30" height="30" alt="" />
