@@ -3,7 +3,7 @@ import React from 'react';
 class Bio extends React.Component {
   render() {
     return (
-      <div className="jumbotron jumbotron-fluid">
+      <div className="Bio jumbotron jumbotron-fluid collapse" data-parent="#nav-accordian">
         <div className="container d-flex">
           <div className="col-6">
             <h1 className="display-4">Bio</h1>
