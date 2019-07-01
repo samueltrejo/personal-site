@@ -5,7 +5,7 @@ import content from '../data/animation-content';
 
 class TypeAnimation extends React.Component {
   componentDidMount() {
-    const typewriter = setInterval(() => {
+    this.typewriter = setInterval(() => {
       $('.cursor').toggleClass('blink');
     }, 350);
 
@@ -22,6 +22,10 @@ class TypeAnimation extends React.Component {
         }, delay);
       }
     });
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.typewriter);
   }
 
   render() {

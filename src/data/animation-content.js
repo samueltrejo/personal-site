@@ -78,7 +78,7 @@ const animationContent = [
     target: '.line1',
   },
   {
-    delay: 10,
+    delay: 11,
     action: true,
     target: '.misc',
     class: 'text-lightblue',
@@ -174,7 +174,7 @@ const animationContent = [
     target: '.line1',
   },
   {
-    delay: 10,
+    delay: 25,
     action: true,
     target: '.misc',
     class: 'text-lightblue',
