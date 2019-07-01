@@ -66,10 +66,33 @@ body {
   background-color: #303F9F;
 }
 
-.btn-cyan {
-  color: #fff;
-  background-color: #009688;
-  border-color: #009688;
+.text-darkblue {
+  color: #303F9F;
+}
+.text-blue {
+  color: #2196F3;
+}
+.text-lightblue {
+  color: #BBDEFB;
+}
+.text-green {
+  color: #4CAF50;
+}
+.text-lightgreen {
+  color: #8BC34A;
+}
+.text-amber {
+  color: #FFC107;
+}
+
+.cursor {
+  width: 10px;
+  height: 100%;
+  display: inline-block;
+}
+
+.blink {
+  border-bottom: 3px solid white;
 }
 
 @media (max-width: 576px) {
