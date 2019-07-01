@@ -2,8 +2,7 @@ import React from 'react';
 
 import Navbar from '../components/navbar';
 import Homepage from '../components/homepage';
-import Bio from '../components/bio';
-// import Footer from '../components/footer';
+import Footer from '../components/footer';
 
 import projectsData from '../data/projects-data';
 
@@ -25,13 +24,10 @@ class App extends React.Component {
   render() {
     const { projects } = this.state;
     return (
-      <div className="App">
-        <div className="accordian" id="nav-accordian">
-          <Homepage projects={projects} />
-          <Navbar />
-          <Bio />
-        </div>
-        {/* <Footer /> */}
+      <div className="App h-100">
+        <Navbar />
+        <Homepage projects={projects} />
+        <Footer />
       </div>
     );
   }

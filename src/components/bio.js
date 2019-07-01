@@ -3,20 +3,20 @@ import React from 'react';
 class Bio extends React.Component {
   render() {
     return (
-      <div className="Bio jumbotron jumbotron-fluid collapse" data-parent="#nav-accordian">
-        <div className="container d-flex">
-          <div className="col-6">
-            <h1 className="display-4">Bio</h1>
-            <p className="lead">Praesent risus neque, feugiat a laoreet sit amet, iaculis eu arcu. Donec semper, lectus vel auctor suscipit, turpis dui accumsan purus, eu vehicula sem risus vitae sem. In hac habitasse platea dictumst. Cras a massa quam. Nulla malesuada non urna eget interdum. Proin placerat ligula ipsum, interdum imperdiet ipsum lobortis vitae. Vestibulum quis ex pharetra, fringilla mauris ut, ullamcorper massa. Nullam in faucibus nunc. Nullam viverra elit id augue malesuada egestas. Curabitur et ipsum est.</p>
-            <div className="d-flex justify-content-center">
-              <div>
-                <button type="button" className="btn btn-dark mr-3">Technologies</button>
-                <button type="button" className="btn btn-dark">Projects</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-6 d-flex overflow-hidden">
-              <img src="https://picsum.photos/1000/1000?image=776" className="img-fluid bio-image" alt=""/>
+      <div className="Bio bg-lightblue py-5">
+        <div className="container">
+          <div className="col">
+            <h1 className="display-4">About Me</h1>
+            <p className="lead">I absolutely love learning new things and I consider myself a fast learner
+              due to my diverse background. I am a self taught musician, maths lover, computer technician,
+              volleyball and soccer player, drawer, spanish speaker, singer, pc builder, gamer, bicycle trickster, etc.</p>
+            <p className="lead">I've always been particularly drawn to technology and the technical aspect of life. From
+              tinkering with phones and game systems to repairing phones and computers from friends and family.
+              I recently discovered a love and passion for software development while exploring the world of
+              ROM hacking. The ability to create and share an idea that is my own in this new way fascinated me.</p>
+            <p className="lead">And so my journey begins with Nashville Software School. I hope to perfect and use the skills
+              I learn to not only share my creations and ideas, and build my future, but to help people in
+              various ways with the almost limitless world of programming. </p>
           </div>
         </div>
       </div>

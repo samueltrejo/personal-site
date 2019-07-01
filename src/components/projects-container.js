@@ -9,17 +9,19 @@ class Projects extends React.Component {
       <Project key={project.id} project={project} />
     ));
     return (
-      <div className="container">
+      <div className="Projects bg-lightblue">
+        <div className="container py-5">
 
-        <div className="row">
+          <div className="row">
 
-          <div className="col">
-            <h2>Projects</h2>
+            <div className="col">
+              <h2 className="display-4">Projects</h2>
+            </div>
+
           </div>
 
+          <div className="row">{writeProjects}</div>
         </div>
-
-        <div className="row">{writeProjects}</div>
       </div>
     );
   }
