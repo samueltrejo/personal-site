@@ -2,6 +2,11 @@ body {
   background-color: #111111;
 }
 
+.ConsoleAnimation {
+  min-width: 175px;
+  min-height: 136px;
+}
+
 .Intro {
   border-bottom: 3px solid #303F9F;
   background-image: url(https://i.imgur.com/n6GVFSw.png);
@@ -92,9 +97,6 @@ body {
   width: 10px;
   height: 100%;
   display: inline-block;
-}
-
-.blink {
   border-bottom: 3px solid white;
 }
 
