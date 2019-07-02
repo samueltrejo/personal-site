@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Intro from './intro-content';
+import Intro from './intro';
 import Bio from './bio';
 import Technologies from './technologies';
 

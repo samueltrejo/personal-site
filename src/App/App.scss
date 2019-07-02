@@ -2,6 +2,11 @@ body {
   background-color: #111111;
 }
 
+.ConsoleAnimation {
+  min-width: 175px;
+  min-height: 136px;
+}
+
 .Intro {
   border-bottom: 3px solid #303F9F;
   background-image: url(https://i.imgur.com/n6GVFSw.png);
@@ -38,7 +43,7 @@ body {
   border-radius: 6px;
   padding: 0.5rem;
   right: -10%;
-  top: 50%;
+  top: 35%;
 }
 
 .intruduction-animation-2 {
@@ -66,10 +71,33 @@ body {
   background-color: #303F9F;
 }
 
-.btn-cyan {
-  color: #fff;
-  background-color: #009688;
-  border-color: #009688;
+.text-darkblue {
+  color: #303F9F;
+}
+.text-blue {
+  color: #2196F3;
+}
+.text-lightblue {
+  color: #BBDEFB;
+}
+.text-green {
+  color: #4CAF50;
+}
+.text-lightgreen {
+  color: #8BC34A;
+}
+.text-amber {
+  color: #FFC107;
+}
+.text-red {
+  color: #F44336;
+}
+
+.cursor {
+  width: 10px;
+  height: 100%;
+  display: inline-block;
+  border-bottom: 3px solid white;
 }
 
 @media (max-width: 576px) {

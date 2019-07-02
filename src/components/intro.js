@@ -1,5 +1,8 @@
 import React from 'react';
 
+import TypeAnimation from './type-animation';
+import ConsoleAnimation from './console-animation';
+
 class Intro extends React.Component {
   render() {
     return (
@@ -10,8 +13,8 @@ class Intro extends React.Component {
               <div className="introduction-text-container col-12 col-lg-6 px-5">
                 <div className="introduction-text-card position-relative">
                   <div className="introduction-heading display-4 position-absolute">Samuel Trejo</div>
-                  <div className="intruduction-animation-1 position-absolute">{'const whoIsSamuel = () => {samuelInfo}'}</div>
-                  <div className="intruduction-animation-2 position-absolute">{'const whoIsSamuel = () => {samuelInfo}'}</div>
+                  <TypeAnimation />
+                  <ConsoleAnimation />
                 </div>
               </div>
               <div className="introduction-image-container col-12 col-lg-6 px-5 mb-5">
