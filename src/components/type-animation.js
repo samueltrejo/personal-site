@@ -19,10 +19,13 @@ class TypeAnimation extends React.Component {
       if (item.action) {
         setTimeout(() => {
           $(item.target).addClass(item.class);
+          // const colorClassCopy = { ...this.state.colorClass };
+          // colorClassCopy[item.target] = item.class;
+          // this.setState({ colorClass: colorClassCopy });
         }, delay);
       } else {
         setTimeout(() => {
-          const character = <Character key={item.type + item.delay} item={item}/>;
+          const character = <Character key={item.type + item.delay} item={item} colorClass={this.state.colorClass}/>;
           characters.push(character);
           this.setState({ characterData: characters });
         }, delay);
