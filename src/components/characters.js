@@ -2,9 +2,9 @@ import React from 'react';
 
 class Character extends React.Component {
   render() {
-    const { item } = this.props;
+    const { character, colorClass } = this.props;
     return (
-      <span key={item.type + item.delay} className={item.type}>{item.character}</span>
+      <span className={colorClass[character.type]}>{character.character}</span>
     );
   }
 }
