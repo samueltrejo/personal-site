@@ -12,7 +12,7 @@ class Intro extends React.Component {
             <div className="row">
               <div className="introduction-text-container col-12 col-lg-6 px-5">
                 <div className="introduction-text-card position-relative">
-                  <div className="introduction-heading display-4 position-absolute">Samuel Trejo</div>
+                  <div className="introduction-heading display-4 position-absolute text-hazelblue">Samuel Trejo</div>
                   <TypeAnimation />
                   <ConsoleAnimation />
                 </div>

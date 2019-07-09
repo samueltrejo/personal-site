@@ -18,84 +18,6 @@ const consoleContent = [
 ];
 
 const typewriterContent = [
-  // {
-  //   delay: 0,
-  //   character: 's',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 1,
-  //   character: 'e',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 2,
-  //   character: 't',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 3,
-  //   character: 'T',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 4,
-  //   character: 'i',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 6,
-  //   character: 'm',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 7,
-  //   character: 'e',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 8,
-  //   character: 'o',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 9,
-  //   character: 'u',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 10,
-  //   character: 't',
-  //   type: 'meth',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 10,
-  //   action: true,
-  //   target: '.meth',
-  //   class: 'text-green',
-  // },
-  // {
-  //   delay: 11,
-  //   character: '(',
-  //   type: 'misc',
-  //   target: '.line1',
-  // },
-  // {
-  //   delay: 11,
-  //   action: true,
-  //   target: '.misc',
-  //   class: 'text-lightblue',
-  // },
   {
     delay: 12,
     character: 'c',
@@ -178,7 +100,7 @@ const typewriterContent = [
     delay: 24,
     action: true,
     target: 'meth1',
-    class: 'text-lightgreen',
+    class: 'text-hazelgreen',
   },
   {
     delay: 25,
@@ -244,7 +166,7 @@ const typewriterContent = [
     delay: 33,
     action: true,
     target: 'var1',
-    class: 'text-blue',
+    class: 'text-hazelred',
   },
   {
     delay: 34,
