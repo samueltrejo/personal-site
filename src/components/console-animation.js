@@ -13,7 +13,7 @@ class ConsoleAnimation extends React.Component {
     content.consoleContent.forEach((item) => {
       const delay = 1000 * item.delay;
       setTimeout(() => {
-        const newMessage = <div key={`console${item.delay}`} className="text-red">{ item.consoleMessage }</div>;
+        const newMessage = <div key={`console${item.delay}`} className="text-hazelred">{ item.consoleMessage }</div>;
         messages.push(newMessage);
         this.setState({ consoleData: messages });
       }, delay);
@@ -28,7 +28,7 @@ class ConsoleAnimation extends React.Component {
     const { consoleData } = this.state;
     return (
       <div className="ConsoleAnimation intruduction-animation-2 position-absolute">
-        <div><i className="fas fa-cogs"></i> Console</div>
+        <div className="text-hazelblue"><i className="fas fa-cogs text-hazelblue"></i> Console</div>
         <div>{ consoleData }</div>
       </div>
     );

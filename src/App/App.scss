@@ -8,12 +8,13 @@ body {
 }
 
 .Intro {
-  border-bottom: 3px solid #303F9F;
+  border-bottom: 3px solid white;
   background-image: url(https://i.imgur.com/n6GVFSw.png);
 }
 
 .intro-overlay {
-  background: rgba($color: #111111, $alpha: 0.95);
+  // background: rgba($color: #1a232e, $alpha: 0.9);
+  background: linear-gradient(to right, rgba($color: #77A1D3, $alpha: 0.9), rgba($color: #79CBCA, $alpha: 0.9), rgba($color: #E684AE, $alpha: 0.9));
 }
 
 .introduction-text-container,
@@ -26,51 +27,69 @@ body {
   min-height: 500px;
   border-radius: 10px;
   background-color: #333333;
+  // box-shadow: 0 14px 28px rgba($color: black, $alpha: 0.50), 0 10px 10px rgba($color: black, $alpha: 0.42);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.50), 0 15px 12px rgba(0,0,0,0.42);
 }
 
 .introduction-heading {
-  color: #303F9F;
   background-color: #222222;
   border-radius: 6px;
   padding: 0.5rem;
   left: -10%;
   top: 10%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .intruduction-animation-1 {
-  color: #303F9F;
   background-color: #222222;
   border-radius: 6px;
   padding: 0.5rem;
   right: -10%;
   top: 35%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .intruduction-animation-2 {
-  color: #303F9F;
   background-color: #222222;
   border-radius: 6px;
   padding: 0.5rem;
   left: -10%;
   bottom: 10%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .introduction-image {
-  border: 2px solid #222222;
+  border: 2px solid #333333;
   border-radius: 6px;
   padding: 0.5rem;
   top: 10%;
   right: -10%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .bg-lightblue {
   background-color: #BDBDBD;
 }
-
+.bg-grey {
+  background-color: #333333;
+}
 .bg-blue {
   background-color: #303F9F;
 }
-
+.bg-hazel {
+  background: #77a1d3;
+  background: -webkit-linear-gradient(to right, #77A1D3, #79CBCA, #E684AE);
+  background: linear-gradient(to right, #77A1D3, #79CBCA, #E684AE);
+}
+.text-hazelblue {
+  color: #77A1D3;
+}
+.text-hazelgreen {
+  color: #79CBCA;
+}
+.text-hazelred {
+  color: #E684AE;
+}
 .text-darkblue {
   color: #303F9F;
 }
@@ -94,7 +113,7 @@ body {
 }
 
 .Project {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .cursor {

@@ -3,10 +3,10 @@ import React from 'react';
 class Bio extends React.Component {
   render() {
     return (
-      <div className="Bio bg-lightblue py-5">
+      <div className="Bio bg-white py-5">
         <div className="container">
           <div className="col">
-            <h1 className="display-4">About Me</h1>
+            <h1 className="display-4 font-weight-bold">About Me</h1>
             <p className="lead">I absolutely love learning new things and I consider myself a fast learner
               due to my diverse background. I am a self taught musician, maths lover, computer technician,
               volleyball and soccer player, drawer, spanish speaker, singer, pc builder, gamer, bicycle trickster, etc.</p>

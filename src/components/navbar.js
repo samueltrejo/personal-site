@@ -3,7 +3,7 @@ import React from 'react';
 class Navbar extends React.Component {
   render() {
     return (
-      <div className="Navbar navbar sticky-top navbar-expand-lg navbar-dark bg-blue">
+      <div className="Navbar navbar sticky-top navbar-expand-lg navbar-dark bg-grey">
         <div className="container">
           <span className="navbar-brand" href="#">
             <img src="http://www.st-design.be/v1/wp-content/uploads/2014/06/logo2.png" width="30" height="30" alt="" />
