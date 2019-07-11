@@ -16,7 +16,7 @@ class Technologies extends React.Component {
   render() {
     const technologyImages = [css3, html5, javascript, react, vscode, webpack, bootstrap, jquery, sass];
     const writeTechImages = technologyImages.map(img => (
-      <TechnologyImage img={img}/>
+      <TechnologyImage key={img} img={img}/>
     ));
     return (
       <div id="Technologies" className="Technologies bg-dark py-5">
