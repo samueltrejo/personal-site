@@ -6,7 +6,7 @@ import ConsoleAnimation from './console-animation';
 class Intro extends React.Component {
   render() {
     return (
-      <div className="Intro">
+      <div id="Intro" className="Intro">
         <div className="intro-overlay">
           <div className="container">
             <div className="row">

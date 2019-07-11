@@ -3,7 +3,7 @@ import React from 'react';
 class Bio extends React.Component {
   render() {
     return (
-      <div className="Bio bg-white py-5">
+      <div id="Bio" className="Bio bg-white py-5">
         <div className="container">
           <div className="col">
             <h1 className="display-4 font-weight-bold">About Me</h1>
