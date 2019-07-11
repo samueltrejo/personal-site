@@ -126,15 +126,11 @@ body {
 .icon {
   border-top: 2px solid white;
   border-left: 2px solid white;
-  border-radius: 7px;
-}
-
-.icon {
+  border-radius: 6px;
   width: 5rem;
   height: 5rem;
-  border-radius: 6px;
 }
 
-@media (max-width: 576px) {
-  //navbar animations
+.fs-2 {
+  font-size: 1.3rem;
 }
