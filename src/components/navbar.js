@@ -15,10 +15,10 @@ class Navbar extends React.Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-item nav-link active" href="#Intro">Samuel Trejo <span className="sr-only">(current)</span></a>
-              <a className="nav-item nav-link" href="#Bio">About Me</a>
-              <a className="nav-item nav-link" href="#Technologies">Technologies</a>
-              <a className="nav-item nav-link" href="#Projects">Projects</a>
+              <a className="nav-item nav-link active" href="#homelink">Samuel Trejo <span className="sr-only">(current)</span></a>
+              <a className="nav-item nav-link" href="#biolink">About Me</a>
+              <a className="nav-item nav-link" href="#technologieslink">Technologies</a>
+              <a className="nav-item nav-link" href="#projectslink">Projects</a>
             </div>
           </div>
         </div>

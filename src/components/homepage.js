@@ -12,8 +12,11 @@ class Homepage extends React.Component {
     return (
       <div className="home-page">
         <Intro />
+        <span id="biolink"></span>
         <Bio />
+        <span id="technologieslink"></span>
         <Technologies />
+        <span id="projectslink"></span>
         <Projects projects={projects}/>
       </div>
     );

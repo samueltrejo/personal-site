@@ -15,7 +15,7 @@ class Projects extends React.Component {
           <div className="row">
 
             <div className="col">
-              <h2 className="display-4 font-weight-bold">Projects</h2>
+              <h2 className="display-4 pb-5">Projects</h2>
             </div>
 
           </div>

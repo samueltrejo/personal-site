@@ -23,7 +23,7 @@ class Technologies extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2 className="display-4 font-weight-bold text-white">Technologies</h2>
+              <h2 className="display-4 text-white pb-5">Technologies</h2>
               <div className="row">
                 {writeTechImages}
               </div>
