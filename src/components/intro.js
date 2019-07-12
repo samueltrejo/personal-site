@@ -12,7 +12,16 @@ class Intro extends React.Component {
             <div className="row">
               <div className="introduction-text-container col-12 col-lg-6 px-5">
                 <div className="introduction-text-card position-relative">
-                  <div className="introduction-heading display-4 position-absolute text-hazelblue"><strong>Samuel</strong> Trejo</div>
+                  <div className="introduction-heading position-absolute text-hazelblue">
+                    <div className="display-4">
+                      <strong>Samuel</strong> Trejo
+                    </div>
+                    <div className="text-right">
+                      <a className="text-hazelblue mr-3" href="https://github.com/samueltrejo" rel="noopener noreferrer" target="_blank" title="github"><i class="fab fa-github-alt"></i></a>
+                      <a className="text-hazelgreen mr-3" href="https://www.linkedin.com/in/samueltrejo/" rel="noopener noreferrer" target="_blank" title="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                      <a className="text-hazelred mr-3" href="mailto:samuel.trejo@s.tcatnashville.edu" rel="noopener noreferrer" target="_blank" title="email"><i class="fas fa-paper-plane"></i></a>
+                    </div>
+                  </div>
                   <TypeAnimation />
                   <ConsoleAnimation />
                 </div>
